@@ -54,31 +54,31 @@ while True:
             if cx4 < cx3:
                 cv2.putText(img,'Thumbup', (10, 70), cv2.FONT_HERSHEY_PLAIN, 2,
                 (255, 0, 255), 3)
-            if cx4 > cx3:
+            elif cx4 > cx3:
                 cv2.putText(img,'Thumbdown', (10, 70), cv2.FONT_HERSHEY_PLAIN, 2,
                 (255, 0, 255), 3)
             if cy8 < cy7:
                 cv2.putText(img,'Indexup', (10, 110), cv2.FONT_HERSHEY_PLAIN, 2,
                 (255, 0, 255), 3)
-            if cy8 > cy7:
+            elif cy8 > cy7:
                 cv2.putText(img,'Indexdown', (10, 110), cv2.FONT_HERSHEY_PLAIN, 2,
                 (255, 0, 255), 3)
             if cy12 < cy11:
                 cv2.putText(img,'Middleup', (10, 150), cv2.FONT_HERSHEY_PLAIN, 2,
                (255, 0, 255), 3)
-            if cy12 > cy11:
+            elif cy12 > cy11:
                 cv2.putText(img,'Middledown', (10, 150), cv2.FONT_HERSHEY_PLAIN, 2,
                 (255, 0, 255), 3)
             if cy16 < cy15:
                 cv2.putText(img,'ringup', (10, 190), cv2.FONT_HERSHEY_PLAIN, 2,
                 (255, 0, 255), 3)
-            if cy16 > cy15:
+            elif cy16 > cy15:
                 cv2.putText(img,'ringdown', (10, 190), cv2.FONT_HERSHEY_PLAIN, 2,
                 (255, 0, 255), 3)
             if cy20 < cy19:
                 cv2.putText(img,'littleup', (10, 230), cv2.FONT_HERSHEY_PLAIN, 2,
                 (255, 0, 255), 3)
-            if cy20 > cy19:
+            elif cy20 > cy19:
                 cv2.putText(img,'littledown', (10, 230), cv2.FONT_HERSHEY_PLAIN, 2,
                 (255, 0, 255), 3)
                   
